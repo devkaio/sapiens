@@ -74,8 +74,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 child: Text(
                   'SAPIENS',
                   textAlign: TextAlign.center,
-                  style: TextStyle(
-                    fontFamily: 'Montserrat',
+                  style: GoogleFonts.montserrat(
                     color: Color(0xFF58B5FE),
                     fontSize: 40,
                     fontWeight: FontWeight.w600,
@@ -87,10 +86,9 @@ class _MyHomePageState extends State<MyHomePage> {
                 child: Text(
                   'Encontre as melhores oportunidades de bolsa de estudos e conquiste o sonho da graduação!',
                   textAlign: TextAlign.center,
-                  style: TextStyle(
-                    fontFamily: 'Open Sans',
+                  style: GoogleFonts.openSans(
                     fontSize: 14,
-                    fontWeight: FontWeight.w500,
+                    fontWeight: FontWeight.w400,
                   ),
                 ),
               ),
@@ -98,6 +96,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 padding: EdgeInsets.fromLTRB(0, 25, 0, 0),
                 child: ElevatedButton(
                   style: ElevatedButton.styleFrom(
+                    primary: Color(0xFF58B5FE),
                     padding: EdgeInsets.fromLTRB(30, 15, 30, 15),
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(30),
