@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:sapiens/shared/imports.dart';
 
 class ScholarshipsPage extends StatefulWidget {
+  static const String id = "/scholarship";
   const ScholarshipsPage({Key? key}) : super(key: key);
 
   @override

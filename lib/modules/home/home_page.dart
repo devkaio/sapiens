@@ -1,16 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:sapiens/shared/imports.dart';
 
-class HomePage extends StatefulWidget {
-  HomePage({Key? key, required this.title}) : super(key: key);
-
-  final String title;
+class GetStated extends StatefulWidget {
+  static const String id = "/get-started";
+  GetStated({
+    Key? key,
+  }) : super(key: key);
 
   @override
-  _HomePageState createState() => _HomePageState();
+  _GetStatedState createState() => _GetStatedState();
 }
 
-class _HomePageState extends State<HomePage> {
+class _GetStatedState extends State<GetStated> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

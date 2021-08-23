@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:sapiens/shared/imports.dart';
 
 class LoginPage extends StatefulWidget {
+  static const String id = "/login";
   const LoginPage({Key? key}) : super(key: key);
 
   @override
